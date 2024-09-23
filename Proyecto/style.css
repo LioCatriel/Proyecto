@@ -17,7 +17,6 @@ body {
 .nav-link {
     color: #fff !important;
     text-transform: capitalize;
-    /* Capitalización para los enlaces */
     margin-right: 15px;
 }
 
