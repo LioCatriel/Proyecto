@@ -1,0 +1,159 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 70px;
+    background-color: #1b1a1a;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #e01f1f !important;
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+#productos h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.623);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #292323;
+    color: #8d3333;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#mapa {
+    background-color: #000000;
+    padding: 60px 0; 
+    text-align: center;/
+}
+
+#mapa h2 {
+    color: #c7c6c6;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#contacto {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+#contacto h2 {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contacto .form-control {
+    border-radius: 5px;
+    border: 1px solid #eee7e7;
+    margin-bottom: 15px;
+}
+
+#contacto .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #0056b3;
+}
